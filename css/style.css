@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #f3a9a9;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #f3a9a9;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fca1a1;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BCCEF8;
+}
+
+.top-container {
+    background-color: #FAF0D7;
+    padding-top: 100px;
+}
+
+.middle-container {}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #fcb484;
+    margin-top: 50px;
+    padding: 50px 0 20px;
+}
+
+.btn {
+    background: #FFD9C0;
+    background-image: -webkit-linear-gradient(top, #f7904c, #f7904c);
+    background-image: -moz-linear-gradient(top,  #f7904c, #f7904c);
+    background-image: -ms-linear-gradient(top,  #f7904c, #f7904c);
+    background-image: -o-linear-gradient(top,   #f7904c, #f7904c);
+    background-image: linear-gradient(to bottom,   #f7904c, #f7904c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Montserrat', sans-serif;
+    ;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #FFE6E6;
+    background-image: -webkit-linear-gradient(top, #FFE6E6, #FFE6E6);
+    background-image: -moz-linear-gradient(top,  #FFE6E6, #FFE6E6);
+    background-image: -ms-linear-gradient(top,  #FFE6E6, #FFE6E6);
+    background-image: -o-linear-gradient(top,  #FFE6E6, #FFE6E6);
+    background-image: linear-gradient(to bottom, #FFE6E6, #FFE6E6);
+    text-decoration: none;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    border: none;
+    border-bottom: 10px dotted #EAF6F6;
+    width: 5%;
+}
+
+.phone,
+.email {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.myname {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    bottom: 350px;
+}
+
+.pfp {
+    width: 25%;
+    margin-top: 50px;
+}
+
+.codepic {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.uipic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.snippet {
+    width: 100%;
+    padding: 30px 10px 150px;
+}
